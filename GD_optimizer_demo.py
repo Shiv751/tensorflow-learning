@@ -25,3 +25,10 @@ with tf.Session() as sess:
     # evaluate training accuracy
     curr_W, curr_b, curr_loss = sess.run([weight, bias, loss_function], {input_x: x_train, expected_y: y_train})
     print("W: %s b: %s loss: %s" % (curr_W, curr_b, curr_loss))
+
+
+
+#======================================Output==============================================================
+'''
+W: [ 3.] b: [ 6.03333333] loss: 0.888888888889
+'''
