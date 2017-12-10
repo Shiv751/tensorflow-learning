@@ -25,3 +25,12 @@ In general, computing symbolic derivatives manually is tedious and error-prone.
 Consequently, TensorFlow can automatically produce derivatives given only a description 
 of the model using the function tf.gradients
 '''
+
+
+
+#===========================================Output===================================================
+'''
+Output is : [  9.7  12.7  15.7]
+Loss is : 0.333333333333 %
+
+'''
